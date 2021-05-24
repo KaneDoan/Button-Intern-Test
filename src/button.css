@@ -1,0 +1,67 @@
+button {
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px;
+    border-color: rgb(169, 169, 169);
+    border-style:outset;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+  }
+
+button:hover{
+  border-color: rgb(218, 216, 216);
+}  
+
+button:active{
+  border-color:  rgb(169, 169, 169);
+}
+  
+  button > img {
+    width: 100%;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 0;
+    padding: 0;
+    padding-bottom: 100%;
+  }
+  
+  .icon-fire {
+    background-image: url("./images/Icon\ awesome-fire.svg");
+  }
+  
+  .icon-mtn {
+    background-image: url("./images/Icon\ awesome-mountain.svg");
+  }
+  
+  .icon-thermo {
+    background-image: url("./images/Icon\ ionic-ios-thermometer.svg");
+  }
+  
+  .icon-bike {
+    background-image: url("./images/Icon metro-directions-bike.svg");
+  }
+  
+  
+  
+  .background-135 {
+    background-image: url("./images/Rectangle 135.png");
+  }
+  
+  .background-136 {
+    background-image: url("./images/Rectangle 136.png");
+  }
+  
+  .background-137 {
+    background-image: url("./images/Rectangle 137.png");
+  }
+  
+  .background-207 {
+    background-image: url("./images/Rectangle 207.png");
+  }
